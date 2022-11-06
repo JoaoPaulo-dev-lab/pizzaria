@@ -4,7 +4,7 @@
     <div>
         <form id="pizza-form" @submit="createPizza">
             <div class="input-container">
-                <label for="nome">Nome do cliente</label>
+                <label for="nome">Nome do cliente:</label>
                 <input type="text" id="nome" name="name" v-model="nome" placeholder="Digite se nome">
             </div>
             <div class="input-container">
