@@ -1,0 +1,119 @@
+{
+  "Cardapio": {
+    "sabores": [
+      {
+        "id": 1,
+        "tipo": "Italiana"
+      },
+      {
+        "id": 2,
+        "tipo": "4 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 4,
+        "tipo": "Frango/Catupiry"
+      },
+      {
+        "id": 5,
+        "tipo": "Portuguesa"
+      },
+      {
+        "id": 6,
+        "tipo": "Mussarela"
+      },
+      {
+        "id": 7,
+        "tipo": "Marguerita"
+      },
+      {
+        "id": 8,
+        "tipo": "Poperone"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Provolone"
+      },
+      {
+        "id": 4,
+        "tipo": "Milho"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola"
+      },
+      {
+        "id": 6,
+        "tipo": "Atum"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitada"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizada"
+    }
+  ],
+  "pizzas": [
+    {
+      "nome": "João Paulo Maciel do Nascimento",
+      "sabor": "Frango/Catupiry",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Finalizada",
+      "id": 1
+    },
+    {
+      "nome": "João Victor Maciel do Nascimento",
+      "sabor": "Calabresa",
+      "opcionais": [
+        "Cheddar"
+      ],
+      "status": "Finalizada",
+      "id": 2
+    },
+    {
+      "nome": "João Pedro Maciel",
+      "sabor": "Italiana",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitada",
+      "id": 3
+    },
+    {
+      "nome": "Marinêz Maciel da Silva",
+      "sabor": "4 Queijos",
+      "opcionais": [
+        "Cheddar",
+        "Bacon"
+      ],
+      "status": "Em produção",
+      "id": 4
+    }
+  ]
+}
