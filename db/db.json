@@ -77,10 +77,11 @@
   ],
   "pizzas": [
     {
-      "nome": "João Paulo Maciel do Nascimento",
+      "nome": "João Paulo Maciel",
       "sabor": "Frango/Catupiry",
       "opcionais": [
         "Bacon",
+        "Cebola",
         "Cheddar"
       ],
       "status": "Finalizada",
@@ -88,8 +89,9 @@
     },
     {
       "nome": "João Victor Maciel do Nascimento",
-      "sabor": "Calabresa",
+      "sabor": "Frango/Catupiry",
       "opcionais": [
+        "Bacon",
         "Cheddar"
       ],
       "status": "Finalizada",
@@ -100,20 +102,32 @@
       "sabor": "Italiana",
       "opcionais": [
         "Bacon",
-        "Cheddar"
+        "Cebola",
+        "Atum"
       ],
-      "status": "Solicitada",
+      "status": "Em produção",
       "id": 3
     },
     {
       "nome": "Marinêz Maciel da Silva",
       "sabor": "4 Queijos",
       "opcionais": [
-        "Cheddar",
-        "Bacon"
+        "Bacon",
+        "Cheddar"
       ],
       "status": "Em produção",
       "id": 4
+    },
+    {
+      "nome": "José Damião Viana",
+      "sabor": "Calabresa",
+      "opcionais": [
+        "Bacon",
+        "Cebola",
+        "Milho"
+      ],
+      "status": "Solicitada",
+      "id": 5
     }
   ]
 }

@@ -38,7 +38,6 @@
 
 <script>
 import Message from './Message.vue';
-
 export default {
     name: "Dashboard",
     data() {
@@ -49,9 +48,8 @@ export default {
             msg: null
         }
     },
-    components: {
-        Message
-    },
+    components: { Message },
+    
     methods: {
         async getPedidosView() {
             const req = await fetch("http://localhost:3000/pizzas");
