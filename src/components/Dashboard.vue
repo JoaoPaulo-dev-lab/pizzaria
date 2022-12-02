@@ -60,8 +60,8 @@ export default {
 
             // Resgatando os status:
             this.getStatus();
-
         },
+
         async getStatus() {
             const req = await fetch("http://localhost:3000/status");
             const data = await req.json();
@@ -72,7 +72,6 @@ export default {
             const req = await fetch(`http://localhost:3000/pizzas/${id}`, {
                 method: "DELETE"
             });
-
             const res = await req.json();
 
             // colocando uma msg do sistema de que o pedido foi deletado:
@@ -80,9 +79,7 @@ export default {
             
             // limpar mensagem após 3s:
             setTimeout(() => this.msg = "",3000);
-
             this.getPedidosView();
-
         },
         async updatePizza(event, id) {
             //Pegando a opção que o usuário selecionou:
@@ -103,7 +100,6 @@ export default {
             
             // limpar mensagem após 3s:
             setTimeout(() => this.msg = "",5000);
-
             console.log(res)
         }
     },

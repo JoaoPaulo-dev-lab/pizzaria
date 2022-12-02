@@ -33,7 +33,6 @@
 
 <script>
 import Message from './Message.vue';
-
 export default {
     name: "PizzaForm",
     data() {
@@ -64,7 +63,6 @@ export default {
                 sabor: this.sabor,
                 opcionais: Array.from(this.opcionais),
                 status: "Solicitada",
-
             }
             // Inserindo o pedido no banco:
             const dataJson = JSON.stringify(data);
@@ -86,7 +84,6 @@ export default {
             this.nome = "";
             this.sabor = "";
             this.opcionais = ""
-
         }
     },
     mounted() {
