@@ -10,7 +10,7 @@ npm install
 npm run serve
 ```
 ```
-npm backend serve (for loading data from the 'db.json' file)
+npm run backend (for loading data from the 'db.json' file)
 ```
 
 ### Compiles and minifies for production
