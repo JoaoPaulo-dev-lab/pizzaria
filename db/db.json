@@ -113,18 +113,19 @@
       "sabor": "4 Queijos",
       "opcionais": [
         "Bacon",
-        "Cheddar"
+        "Cheddar",
+        "Milho"
       ],
-      "status": "Em produção",
+      "status": "Solicitada",
       "id": 4
     },
     {
-      "nome": "José Damião Viana",
+      "nome": "José Damião Viana do Nascimento",
       "sabor": "Calabresa",
       "opcionais": [
         "Bacon",
         "Cebola",
-        "Milho"
+        "Cheddar"
       ],
       "status": "Solicitada",
       "id": 5
