@@ -25,7 +25,12 @@
             <div>
                 <select name="status" class="status" @change="updatePizza($event, pizza.id)">
                     <option value="">Selecione</option>
-                    <option v-for="s in status" :key="s.id" :value="s.tipo" :selected="pizza.status == s.tipo">
+                    <option 
+                        v-for="s in status" 
+                        :key="s.id" 
+                        :value="s.tipo" 
+                        :selected="pizza.status == s.tipo"
+                    >
                         {{ s.tipo }}
                     </option>
                 </select>

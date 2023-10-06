@@ -5,13 +5,23 @@
         <form id="pizza-form" @submit="createPizza">
             <div class="input-container">
                 <label for="nome">Nome do cliente:</label>
-                <input type="text" id="nome" name="name" v-model="nome" placeholder="Digite se nome">
+                <input 
+                    type="text" 
+                    id="nome" 
+                    name="name" 
+                    v-model="nome" 
+                    placeholder="Digite se nome"
+                >
             </div>
             <div class="input-container">
                 <label for="sabor">Escolha o sabor</label>
                 <select name="sabor" id="tipo" v-model="sabor">
                     <option value="">Selecione o sabor</option>
-                    <option v-for="sabor in sabores" :key="sabor.id" :value="sabor.tipo">
+                    <option 
+                        v-for="sabor in sabores" 
+                        :key="sabor.id" 
+                        :value="sabor.tipo"
+                    >
                         {{ sabor.tipo }}
                     </option>
                 </select>
@@ -19,7 +29,12 @@
             <div id="opcionais-container" class="input-container">
                 <label id="opcionais-title" for="opcionais">Escolha os opcionais:</label>
                 <div class="checkbox-container" v-for="opcional in opcionaisdata" :key="opcional.id">
-                    <input type="checkbox" name="opcionais" v-model="opcionais" :value="opcional.tipo">
+                    <input 
+                        type="checkbox" 
+                        name="opcionais" 
+                        v-model="opcionais" 
+                        :value="opcional.tipo"
+                    >
                     <span>{{ opcional.tipo }}</span>
                 </div>
             </div>
